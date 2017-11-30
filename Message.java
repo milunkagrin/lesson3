@@ -10,9 +10,9 @@ public class Message {
     User author;
     Date date;
 
-        Message ( int mes, String t, User a) {
+        public Message ( int mes, String t, User a) {
             messageld = mes;
-            text = t;
+            this.text = t;
             author = a;
             Calendar c2 = new GregorianCalendar();
             date = c2.getTime();
